@@ -4,3 +4,12 @@
 # 
 
 p "Enter a list of words separated by spaces:"
+
+list = gets.chomp.split
+
+list.each do |word|
+  if word.length%2 ==0 
+    p word
+  else
+  end
+end
